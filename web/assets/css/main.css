@@ -1,0 +1,102 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	height: 65px;
+	width: 100%;
+	background: #3498db;
+    border-bottom: 1px #537BC1 solid;
+    border-top: 0;
+
+}
+
+header .container-fluid {
+	height: 65px;
+	line-height: 65px;
+	width: 90%;
+}
+
+header .container-fluid .logo {
+	float: left;
+	display: none;
+}
+
+header .container-fluid .logo-txt {
+    line-height: 65px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    float: left;
+    letter-spacing: 2px;
+    margin-left: 10px;
+}
+
+header .container-fluid ul {
+    float: right;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+header .container-fluid ul li {
+    font-family: verdana;
+    font-size: 12px;
+    color: white;
+    float: left;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: #E05641;
+    height: 35px;
+    margin: 15px;
+    line-height: 35px;
+    padding-left: 6px;
+    padding-right: 6px;
+    border: 1px #c0392b solid;
+    margin-left: 8px;
+    margin-right: 0px;
+}
+
+header .container-fluid ul li:last-child {
+	background-color: #346c90;
+    border: 1px #285672 solid;
+}
+
+.container-fluid {
+	width: 90%;
+}
+
+footer {
+	width: 100%;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	background-color: #2f2f2f;
+	border-top: 1px #413E3E solid;
+	margin: auto;
+}
+
+footer .container-fluid {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+footer .container-fluid .col-md-3 {
+	border-right: 1px #413E3E solid;
+}
+
+footer .container-fluid .col-md-3:last-child {
+	border-right: 0px;
+}
+
+footer .container-fluid .col-md-3 h3 {
+	color: white;
+	margin: 0;
+	padding: 0;
+	margin-bottom: 10px;
+	font-size: 15px !important;
+	font-weight: bold;
+	text-transform: uppercase;
+}
