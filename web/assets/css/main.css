@@ -8,32 +8,28 @@ header {
 	width: 100%;
 	background: #3498db;
     border-bottom: 1px #537BC1 solid;
-    border-top: 0;
-
 }
 
-header .container-fluid {
+header .container {
 	height: 65px;
 	line-height: 65px;
-	width: 90%;
 }
 
-header .container-fluid .logo {
+header .container .logo {
 	float: left;
 	display: none;
 }
 
-header .container-fluid .logo-txt {
+header .container .logo-txt {
     line-height: 65px;
     color: white;
     font-weight: bold;
     text-transform: uppercase;
     float: left;
     letter-spacing: 2px;
-    margin-left: 10px;
 }
 
-header .container-fluid ul {
+header .container ul {
     float: right;
     list-style-type: none;
     margin: 0px;
@@ -41,7 +37,7 @@ header .container-fluid ul {
 
 }
 
-header .container-fluid ul li {
+header .container ul li {
     font-family: verdana;
     font-size: 12px;
     color: white;
@@ -59,44 +55,322 @@ header .container-fluid ul li {
     margin-right: 0px;
 }
 
-header .container-fluid ul li:last-child {
+header .container ul li .glyphicon {
+	color: white;
+}
+
+header .container ul li:last-child {
 	background-color: #346c90;
     border: 1px #285672 solid;
 }
 
-.container-fluid {
-	width: 90%;
+.homepage-info {
+	widows: 100%;
+	height: auto;
+	overflow: hidden;
+	background: #f8f9fa;
+    border-bottom: 1px #eeefef solid;
+    padding: 50px 0px;
 }
 
-footer {
+.nieuwsbrief {
 	width: 100%;
-	position: absolute;
-	left: 0;
-	bottom: 0;
-	background-color: #2f2f2f;
-	border-top: 1px #413E3E solid;
-	margin: auto;
+	height: auto;
+	overflow: hidden;
+	background: #f8f9fa;
+    border-top: 1px #eeefef solid;
+    border-bottom: 1px #eeefef solid;
+    padding: 25px 0px;
+    text-align: center;
 }
 
-footer .container-fluid {
-	padding-top: 30px;
-	padding-bottom: 30px;
+.rijschool-reviews {
+	width: 100%;
+	height: 45px;
+	overflow: hidden;
+	background: white;
+    border-bottom: 1px #E4E5E5 solid;
+    line-height: 45px;
 }
 
-footer .container-fluid .col-md-3 {
-	border-right: 1px #413E3E solid;
+.aanbod-rijles {
+	background-color: white;
 }
 
-footer .container-fluid .col-md-3:last-child {
-	border-right: 0px;
-}
-
-footer .container-fluid .col-md-3 h3 {
+ul li a {
 	color: white;
+}
+
+ul li a:hover {
+	text-decoration: none;
+	color: white;
+}
+
+a {
+	color: black;
+}
+
+a:hover {
+	color: black;
+}
+
+.row {
+	padding-left: -15px;
+	padding-right: -15px;
+}
+
+.glyphicon {
+	color: black;
+	font-size: 14px;
+}
+
+.box {
+	background: #f8f9fa;
+    border: 1px #eeefef solid;
+    padding: 10px;
+    margin-bottom: 35px;
+}
+
+.padding {
+	padding-top: 50px;
+	padding-bottom: 25px;
+}
+
+.auto-info {
+	text-align: center;
+}
+
+
+h3 {
+	font-size: 18px;
+  font-weight: bold;
+  font-family: Verdana;
+  color: black;
+  text-transform: uppercase;
+  padding: 0px;
+  margin: 0px;
+}
+
+.zilver, .plat {
+  float: left;
+  width: calc(25% - 1px);
+  background: white;
+  text-align: center;
+  border-top-left-radius: 5px;
+  border: 1px rgba(0, 0, 0, 0.1) solid;
+  border-right: 0px;
+  border-bottom-left-radius: 5px;
+}
+
+.normaal {
+  float: left;
+  width: calc(25% - 1px);
+  background: white;
+  text-align: center;
+  border-top-right-radius: 5px;
+  border: 1px rgba(0, 0, 0, 0.1) solid;
+  border-left: 0px;
+  border-bottom-right-radius: 5px;
+}
+
+.goud {
+  float: left;
+  position: relative;
+  width: calc(25% - 1px);
+  top: -50px;
+  padding: 50px 0;
+  background: #3096D0;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.goud > .price {
+  background: white;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.goud > h1, .goud > h2, .goud > p, .goud > span {
+  color: white;
+}
+
+.goud .populair{
+	background: url(http://rijschoolrocket.freaze.eu/ROCKET/resources/img/populair.png);
+	float: right;
+	width: 80px;
+	height: 80px;
+    top: -4px;
+    right: -4px;	
+	position: absolute;
+}
+
+h1 {
+  margin: 20px 0 10px 0;
+  font-size: 1.25em;
+  color: rgba(0, 0, 0, 0.8);
+  font-family: verdana;
+}
+
+h2 {
+  font-size: .75em;
+  color: rgba(0, 0, 0, 0.6);
+  font-weight: 100;
+  letter-spacing: 1px;
+  font-family: verdana;
+}
+
+p {
+  color: rgba(0, 0, 0, 0.4);
+  margin: 10px 0;
+  font-weight: 100;
+  font-size: .75em;
+  font-family: verdana;
+
+}
+
+span {
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  display: inline-block;
+  width: 125px;
+  font-size: 1em;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: rgba(0, 0, 0, 0.5);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  font-family: verdana;
+
+}
+
+.price {
+	height: 100px;
+	width: 100px;
+	text-align: center;
+ 	background-color: #E05641;
+ 	border-radius: 50%;
+ 	line-height: 100px;
+ 	color: #fff;
+ 	font-size: 1.5em;
+ 	font-weight: 100;
+ 	margin: 20px auto;
+}
+
+button {
+  display: block;
+  margin: 20px auto;
+  width: 150px;
+  height: 35px;
+  border-bottom: 5px solid #c0392b;
+  background: #E05641;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: .75em;
+  font-weight: 100;
+  transition: all ease-in-out .2s;
+}
+
+button:hover {
+  background: #c0392b;
+}
+
+@media only screen and (max-width: 1000px) {
+	
+
+	.padding {
+		padding-top: 15px;
+		padding-bottom: 10px;
+	}
+
+	.box {
+		margin-bottom: 20px;
+	}
+
+	.homepage-info {
+		padding: 25px;
+	}
+
+	.homepage-info .container .row .col-md-6 {
+		margin-bottom: 15px;
+	}
+
+	.aanbod-rijles .container .row .col-md-8 {
+		margin-bottom: 15px;
+	}
+
+	ul {
+		display: none;
+	}
+
+	li {
+		display: none;
+	}
+
+	.zilver, .plat {
+		width: 100%;
+		background: white;
+		text-align: center;
+		border: 1px rgba(0, 0, 0, 0.1) solid;
+		border-radius: 5px;
+		margin-bottom: 25px;
+	}
+
+	.normaal {
+		width: 100%;
+		background: white;
+		text-align: center;
+		border: 1px rgba(0, 0, 0, 0.1) solid;
+		border-radius: 5px;
+		margin-bottom: 25px;
+	}
+	
+	.goud {
+		float: left;
+		position: relative;
+		width: 100%;
+		top: 0px;
+		padding: 50px 0;
+		background: #3096D0;
+		text-align: center;
+		border-radius: 5px;
+		margin-bottom: 25px;
+	}
+
+	.goud > .price {
+		background: white;
+		color: rgba(0, 0, 0, 0.7);
+	}
+	
+	.goud > h1, .gold > h2, .gold > p, .gold > span {
+		color: white;
+	}
+
+	.goud .populair {
+		background: url(http://rijschoolrocket.freaze.eu/ROCKET/resources/img/populair.png);
+		float: right;
+		width: 80px;
+		height: 80px;
+	 	top: -4px;
+		right: -4px;	
+		position: absolute;
+	}
+}
+
+h3 {
+	color: black;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 15px;
 	margin: 0;
 	padding: 0;
 	margin-bottom: 10px;
-	font-size: 15px !important;
-	font-weight: bold;
-	text-transform: uppercase;
+}
+
+footer {
+	background: white;
+	padding: 20px 0px;
+}
+
+footer .footer-info {
+	text-align: center;
 }
