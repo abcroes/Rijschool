@@ -14,7 +14,7 @@
 				<span>Gratis</span>
 				<p>Proefles</p>
 				<span>Gratis</span>
-				<button><b>Aanmelden</b></button>
+				<button><a href="aanmelden.php"><b>Aanmelden</b></a></button>
 			</div>
 			<div class="plat" style="border-bottom-left-radius: 0px; border-top-left-radius: 0px;">
 				<h1>20 Rijlessen</h1>
@@ -26,7 +26,7 @@
 				<span>Gratis</span>
 				<p>Proefles</p>
 				<span>Gratis</span>
-				<button><b>Aanmelden</b></button>
+				<button><a href="aanmelden.php"><b>Aanmelden</b></a></button>
 			</div>
 			<div class="goud">
 			<div class="populair"></div>
@@ -39,7 +39,7 @@
 				<span>Gratis</span>
 				<p>Proefles</p>
 				<span>Gratis</span>
-				<button><b>Aanmelden</b></button>
+				<button><a href="aanmelden.php"><b>Aanmelden</b></a></button>
 			</div>
 			<div class="normaal">
 				<h1>30 Rijlessen</h1>
@@ -51,7 +51,7 @@
 				<span>Gratis</span>
 				<p>Proefles</p>
 				<span>Gratis</span>
-				<button><b>Aanmelden</b></button>
+				<button><a href="aanmelden.php"><b>Aanmelden</b></a></button>
 			</div>
 		</div>
 	</div>

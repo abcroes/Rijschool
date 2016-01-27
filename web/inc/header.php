@@ -20,7 +20,7 @@
 			<li>Opleidingen</li>
 			<li><a href="prijzen.php">Paketten</a></li>
 			<li><a href="lesautos.php">Lesauto's</a></li>
-			<li>Rijinstructeurs</li>
+			<li><a href="instructeurs.php">Rijinstructeurs</a></li>
 			<li><a href="contact.php">Contact</a></li>
 			<li>
 				<i class="glyphicon glyphicon-user"></i>

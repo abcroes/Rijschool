@@ -3,7 +3,7 @@
 <div class="container padding">
 	<div class="row">
 		<div class="col-md-12">
-			<h3>Contact</h3>
+			<h3>Aanmelden voor proefles</h3>
 		</div>
 		<div class="col-md-8">
 
