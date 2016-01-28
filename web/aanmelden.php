@@ -6,7 +6,44 @@
 			<h3>Aanmelden voor proefles</h3>
 		</div>
 		<div class="col-md-8">
-
+			<form>
+				<br/>
+				<input type="text" placeholder="Voornaam">
+				<br/>
+				<br/>
+				<input type="text" placeholder="Achternaam">
+				<br/>
+				<br/>
+				<input type="text" placeholder="Email Adres">
+				<br/>
+				<br/>
+				<input type="text" placeholder="Telefoon nummer">
+				<br/>
+				<br/>
+				<input type="text" placeholder="Adres + Huisnummer">
+				<br/>
+				<br/>
+				<input type="text" placeholder="Postcode">
+				<br/>
+				<br/>
+				<input type="text" placeholder="Woonplaats">
+				<br/>
+				<br/>
+				<select>
+					<option>Auto rijles</option>
+					<option>Brommer rijles</option>
+					<option>Motor rijles</option>
+					<option>Aanhang wagen</option>
+				</select>
+				<br/>
+				<br/>
+				<textarea placeholder="Stel hier uw vragen of geef aan of u rijangst heeft"></textarea>
+				<br/>
+				<br/>
+				<input type="submit" value="Vraag de proefles aan">
+				<br/>
+				<br/>
+			</form>
 		</div>
 		<div class="col-md-4">
 			<div class="box">

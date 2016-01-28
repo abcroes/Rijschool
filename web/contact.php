@@ -6,7 +6,30 @@
 			<h3>Contact</h3>
 		</div>
 		<div class="col-md-8">
-
+			<form>
+				<br/>
+				<input type="text" placeholder="Voornaam">
+				<br/>
+				<br/>
+				<input type="text" placeholder="Achternaam">
+				<br/>
+				<br/>
+				<input type="text" placeholder="Email Adres">
+				<br/>
+				<br/>
+				<input type="text" placeholder="Telefoon nummer">
+				<br/>
+				<br/>
+				<input type="text" placeholder="Woonplaats">
+				<br/>
+				<br/>
+				<textarea placeholder="Typ hier uw vraag"></textarea>
+				<br/>
+				<br/>
+				<input type="submit" value="Verzenden">
+				<br/>
+				<br/>
+			</form>
 		</div>
 		<div class="col-md-4">
 			<div class="alert alert-info" role="alert"><font style="font-weight: bold;">Reactie:</font> Wij geven doorgaans antwoord binnen 24 uur.</div>

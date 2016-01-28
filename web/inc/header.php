@@ -6,6 +6,14 @@
 	<link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
 	<script type="text/javascript" src="assets/js/youtube.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script>
+	$(document).ready(function(){
+	    $(".hamburger").click(function(){
+	        $(".mobile").toggle();
+	    });
+	});
+	</script>
 </head>
 <body>
 <header>
@@ -13,7 +21,10 @@
 		<div class="logo-txt">
 			RijschooLRocket
 		</div>
-		<ul>
+		<div class="hamburger">
+			<i class="glyphicon glyphicon-menu-hamburger"></i>
+		</div>
+		<ul class="mobile">
 			<li>
 				<a href="index.php"><i class="glyphicon glyphicon-home"></i></a>
 			</li>
@@ -23,7 +34,7 @@
 			<li><a href="instructeurs.php">Rijinstructeurs</a></li>
 			<li><a href="contact.php">Contact</a></li>
 			<li>
-				<i class="glyphicon glyphicon-user"></i>
+				<a href="inloggen.php"><i class="glyphicon glyphicon-user"></i></a>
 			</li>
 		</ul>
 	</div>

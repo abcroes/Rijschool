@@ -139,6 +139,32 @@ a:hover {
 	text-align: center;
 }
 
+input {
+	padding: 10px;
+	background: white;
+	width: 275px;
+}
+
+select {
+	padding: 10px;
+	background: white;
+	width: 275px;
+	border: 1px #eeefef solid;
+	height: 40px;
+}
+
+textarea {
+	padding: 10px;
+	background: white;
+	width: 100%;
+	border: 1px #eeefef solid;
+	height: 200px;
+}
+
+input[type=submit] {
+	border-radius: 5px;
+	border: 1px #eeefef solid;
+}
 
 button a {
 	color: white;
@@ -280,6 +306,23 @@ button:hover {
   background: #c0392b;
 }
 
+.hamburger {
+	display: none;
+}
+
+.content {
+    background: #f8f9fa;
+    padding: 50px;
+    overflow: hidden;
+    border-bottom: 1px #eeefef solid;
+    margin-bottom: 40px;
+}
+
+.content .login {
+    width: 262px;
+    margin: auto;
+}
+
 @media only screen and (max-width: 1000px) {
 	
 
@@ -305,11 +348,50 @@ button:hover {
 	}
 
 	ul {
+		width: 100%;
+		left: 0px;
+		top: 65px;
+		position: absolute;
 		display: none;
+		z-index: 999;
 	}
 
 	li {
-		display: none;
+		display: block;
+		width: 100%;
+		margin: 0px !important;
+		margin-bottom: 0px;
+		margin-top: 0px;
+		border-bottom: 1px #c0392b solid !important;
+		text-align: center;
+	}
+
+	li:first-child {
+		width: 100%;
+	}
+
+	li:last-child {
+		border-bottom: 1px #285672 solid !important;
+		width: 100%;
+	}
+
+	.hamburger {
+		float: right;
+		margin-top: 5px;
+		display: inline;
+	}
+
+	.hamburger .glyphicon-menu-hamburger {
+		font-size: 20px;
+		color: white;
+	}
+
+	input {
+		width: 100%;
+	}
+
+	select {
+		width: 100%;
 	}
 
 	.zilver, .plat {

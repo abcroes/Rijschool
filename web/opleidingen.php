@@ -53,6 +53,13 @@ De aanhangwagen in totaal (massa leeg voertuig + laadvermogen) niet zwaarder mag
 De aanhangwagen zwaarder mag zijn dan 750 kg op voorwaarde dat de toegestane maximum massa van de totale combinatie (trekkend voertuig plus aanhangwagen) niet meer dan 3500 kg is.
 In beide gevallen mag het werkelijk te trekken gewicht niet zwaarder zijn dan het trekvermogen van de auto. Wat dit vermogen is, staat in de kentekenpapieren.
 		</div>
+		<div class="col-md-12">
+			<h3>Specialisatie</h3>
+Rijangst (Amaxofobie) is een is overmatige angst om een voertuig te besturen. Van de 7 miljoen Nederlandse rijbewijsbezitters zit de helft wel eens nerveus of angstig achter het stuur (Kerncijfers Personen Vervoer, 2004).
+
+In Nederland zijn er naar schatting tussen de 800.000 en 1 miljoen mensen die lijden aan een vorm van rijangst, waarvan een half miljoen het autorijden helemaal vermijden. De overgrote meerderheid van de rijangstigen is van het vrouwelijke geslacht.
+
+De meest voorkomende vorm van rijangst is angst voor de snelweg.		</div>
 	</div>
 </div>
 
