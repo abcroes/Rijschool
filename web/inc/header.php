@@ -17,7 +17,7 @@
 			<li>
 				<a href="index.php"><i class="glyphicon glyphicon-home"></i></a>
 			</li>
-			<li>Opleidingen</li>
+			<li><a href="opleidingen.php">Opleidingen</a></li>
 			<li><a href="prijzen.php">Paketten</a></li>
 			<li><a href="lesautos.php">Lesauto's</a></li>
 			<li><a href="instructeurs.php">Rijinstructeurs</a></li>
